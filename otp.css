@@ -1,0 +1,91 @@
+.form {
+    width: 350px;
+    height: 400px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2.5em;
+    background-color: #1e1d1d;
+    box-shadow: 5px 5px 15px #000000, -5px -5px 15px #676767;
+    transition: .4s ease-in-out;
+    padding: 15px;
+    margin-left: 75vh;
+    margin-top: 15vh;
+    
+  }
+
+  body{
+    background-image: linear-gradient(to right top, #23151d, #2d1e2a, #352839, #3b3249, #3e3e5a, #3f4a67, #3f5672, #3f627c, #457084, #4f7e8a, #5e8b90, #6f9895);
+  }
+
+  .heading {
+    width: 90%;
+    position: relative;
+    text-align: center;
+    color: #e8e8e8;
+    top: 1em;
+    font-weight: bold;
+    font-size: 19px;
+  }
+  
+  .input {
+    position: relative;
+    width: 2.4em;
+    height: 2.4em;
+    margin: 0.5em;
+    border-radius: 0.75em;
+    border: none;
+    outline: none;
+    background-color: #212121;
+    color: #e8e8e8;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+    box-shadow: inset 2px 2px 5px #000000, inset -2px -2px 5px #676767;
+    top: 2.7em;
+    padding-left: 15px;
+  }
+  
+  .submit {
+    position: relative;
+    top: 6.5em;
+    padding: 10px 25px;
+    border-radius: 5em 0em 0em 5em;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 2px solid #21212100;
+    outline: none;
+    transition: 0.2s;
+    background-color: #70da43;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: #212121;
+    color: #70da43;
+    border: 2px solid #70da43;
+  }
+  
+  .exit {
+    position: relative;
+    top: 6.5em;
+    padding: 10px 35px;
+    border-radius: 0em 5em 5em 0em;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 2px solid #21212100;
+    outline: none;
+    transition: 0.2s;
+    background-color: #ff4444;
+    cursor: pointer;
+  }
+  
+  .exit:hover {
+    background-color: #212121;
+    color: #ff4444;
+    border: 2px solid #ff4444;
+  }
+  .captcha{
+    color: #e8e8e8;
+    margin-top: 22vh;
+  }

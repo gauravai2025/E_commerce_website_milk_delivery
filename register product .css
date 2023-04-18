@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(to right top, #7f90bc, #6dafce, #78cacd, #a5e1c3, #e1f2bf);
+}
+
+
+
+.form {
+    max-width: 500px;
+    height: 500px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 4px rgba(52, 52, 53, 0.185);
+  
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 70vh;
+    margin-top: 5vh;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    /* margin-bottom: 20px; */
+    color: #1a202c;
+    margin-left: 90vh;
+    margin-top: 0.5vh;
+  }
+  
+  .label {
+    color: rgb(0, 0, 0);
+    margin-bottom: 4px;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 1rem;
+    color: #4a5568;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .input:focus {
+    background-color: #fff;
+    box-shadow: 0 0 0 2px #cbd5e0;
+  }
+  
+  .input:valid {
+    border: 1px solid green;
+  }
+  
+  .input:invalid {
+    border: 1px solid rgba(14, 14, 14, 0.205);
+  }
+  
+  .submit {
+    background-color: #09d171;
+    border-radius: 8px;
+    padding: 10px 25px;
+    /* font-size: 6rem; */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font: 500 1rem 'Quicksand', sans-serif;
+
+    font-weight: bold;
+    font-size: 1.5 rem;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 30vh;
+  }
+    .submit:hover {
+        background-color: #de7d28;
+    }
+    
+    .submit:active {
+        transform: scale(0.98);
+    }
+
+  
+      
+      
+      
