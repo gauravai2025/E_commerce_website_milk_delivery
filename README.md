@@ -137,8 +137,19 @@ $client = new Client($sid, $token);
 
 ## Screenshots
 
+### Customer Dashboard
+![Customer Dashboard](screenshots/home-page.png)
+
+### Create Account
+![Create Account](screenshots/create-account.png)
+
+### Login Page
 ![Login Page](screenshots/login-page.png)
-![Customer Dashboard](screenshots/customer-dashboard.png)
+
+### Book Product
+![Book Product](screenshots/book-product.png)
+
+
 ## Future Enhancements
 
 - Add payment gateway integration for online payments.
